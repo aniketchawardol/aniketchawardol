@@ -22,7 +22,7 @@ I'm a web developer passionate about crafting efficient and clean code. My focus
   - **Postman API:** For testing and interacting with APIs
   - **Cloudinary:** For managing media assets and image uploads
   - **JSON Web Tokens (JWT):** For secure user authentication and authorization
-
+  - **Version Control (Git)**: For tracking changes codebase and collaborating with others using platforms like GitHub.
   
 ### 🌱 What's Next
 
