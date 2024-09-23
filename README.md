@@ -1,16 +1,32 @@
-## Hi there 👋
 
-<!--
-**aniketchawardol/aniketchawardol** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+# Hi, I'm Aniket! 👋  
+Welcome to my GitHub profile!
 
-Here are some ideas to get you started:
+### About Me
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+I'm a web developer passionate about crafting efficient and clean code. My focus is on learning new technologies and building projects with the following skills:
+
+### 🛠️ Tech Stack
+
+- **Frontend Development:**
+  - HTML, CSS, JavaScript
+  - **Tailwind CSS:** For building modern, responsive designs
+  - **React:** Functional components, hooks, and state management
+
+- **Backend Development:**
+  - **Express JS:** For building robust server-side applications
+  - **Node JS:** For executing JavaScript on the server
+  - **MongoDB:** A NoSQL database for handling flexible, schema-less data
+  - **Mongoose:** For managing MongoDB with an elegant object data modeling (ODM) library
+  - **Multer Middleware:** For handling file uploads in Node.js applications
+  - **Postman API:** For testing and interacting with APIs
+  - **Cloudinary:** For managing media assets and image uploads
+  - **JSON Web Tokens (JWT):** For secure user authentication and authorization
+
+  
+### 🌱 What's Next
+
+- Building full-stack applications with React and backend technologies.
+
+### 📫 How to Reach Me
+Feel free to connect with me on <a href="https://www.linkedin.com/in/aniket-chawardol">LinkedIn</a> or reach out via email at <a href="mailto:chawardolaniket@gmail.com">chawardolaniket@gmail.com</a>.
