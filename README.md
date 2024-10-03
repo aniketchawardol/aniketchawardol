@@ -4,7 +4,7 @@ Welcome to my GitHub profile!
 
 ### About Me
 
-I'm a web developer passionate about crafting websites with efficient and clean code. My focus is on learning new technologies and build projects:
+I'm an aspiring web developer passionate about crafting websites with efficient and clean code. My focus is on learning new technologies and build projects:
 
 ### 🛠️ Tech Stack
 
