@@ -14,6 +14,7 @@ I'm an aspiring web developer passionate about crafting websites with efficient 
   - **React:** Functional components, hooks, and state management
 
 - **Backend Development:**
+  - **Appwrite:** For building secure and scalable backend applications by offering pre-built APIs for user authentication, databases, file storage, and real-time capabilities. 
   - **Express JS:** For building robust server-side applications
   - **Node JS:** For executing JavaScript on the server
   - **MongoDB:** A NoSQL database for handling flexible, schema-less data
