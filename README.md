@@ -30,4 +30,4 @@ I'm an aspiring web developer passionate about crafting websites with efficient 
 - Building full-stack applications with React and backend technologies.
 
 ### 📫 How to Reach Me
-Feel free to connect with me on <a href="https://www.linkedin.com/in/aniket-chawardol">LinkedIn</a> or reach out via email at <a href="mailto:chawardolaniket@gmail.com">chawardolaniket@gmail.com</a>.
+Feel free to connect with me on <a href="https://www.linkedin.com/in/aniket-chawardol">LinkedIn</a> or reach out via email at <a href="mailto:aniketchawardol@gmail.com">aniketchawardol@gmail.com</a>.
