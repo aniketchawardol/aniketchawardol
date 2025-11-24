@@ -10,8 +10,6 @@ I am currently pursuing a B.Tech in Computer Science and Engineering from the In
 
 ### 💻 Tech Stack & Skills
 
-### 💻 Tech Stack & Skills
-
 <p align="center">
   <strong>Frontend:</strong><br>
   <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5">
