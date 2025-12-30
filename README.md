@@ -118,7 +118,7 @@ I am currently pursuing a B.Tech in Computer Science and Engineering from the In
 ### 📫 Connect with Me
 
 <p align="left">
-  <a href="https://chawardolaniket.vercel.app" target="_blank">
+  <a href="https://chawardolaniket.is-a.dev" target="_blank">
     <img src="https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=About.me&logoColor=white" alt="Portfolio">
   </a>
   <a href="https://linkedin.com/in/aniket-chawardol" target="_blank">
