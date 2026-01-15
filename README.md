@@ -78,8 +78,7 @@ I am currently pursuing a B.Tech in Computer Science and Engineering from the In
 ### 📊 GitHub Stats
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=aniketchawardol&show_icons=true&theme=radical&rank_icon=github" alt="Aniket's GitHub Stats">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=aniketchawardol&layout=compact&theme=radical" alt="Top Languages">
+  <img src="github-metrics.svg" alt="Aniket's GitHub Stats">
 </p>
 
 ---
