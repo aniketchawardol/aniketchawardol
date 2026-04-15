@@ -8,13 +8,14 @@ USER = "aniketchawardol"
 TOKEN = os.getenv("METRICS_TOKEN")
 HEADERS = {"Authorization": f"Bearer {TOKEN}"} if TOKEN else {}
 
-# --- CALENDAR STATS ---
+# --- MANUAL STATS (Bypassing GitHub's 1-Year API Limits) ---
 BEST_STREAK = "4 days"
 HIGHEST_IN_DAY = 7
 AVERAGE_PER_DAY = "~0.48"
+MANUAL_REPOS_CONTRIBUTED = 26 # Hardcoded because the API only checks the last 365 days
 
 def get_rest_count(query):
-    """Fetch all-time totals using GitHub's Search API (avoids 1-year GraphQL limits)."""
+    """Fetch counts using GitHub's Search API."""
     url = f"https://api.github.com/search/issues?q={query}"
     response = requests.get(url, headers=HEADERS)
     return response.json().get("total_count", 0) if response.status_code == 200 else 0
@@ -28,7 +29,7 @@ def get_commits():
     return response.json().get("total_count", 0) if response.status_code == 200 else 0
 
 def get_graphql_data():
-    """Fetch profile data and deeper language usage."""
+    """Fetch profile data and deep language usage."""
     query = """
     query {
       user(login: "%s") {
@@ -52,14 +53,14 @@ def get_graphql_data():
     followers = data.get("followers", {}).get("totalCount", 0)
     issue_comments = data.get("issueComments", {}).get("totalCount", 0)
     
-    # Calculate Account Age
+    # Account Age
     created_at = data.get("createdAt")
     years_ago = 0
     if created_at:
         created_year = datetime.strptime(created_at, "%Y-%m-%dT%H:%M:%SZ").year
         years_ago = datetime.now().year - created_year
 
-    # Language Stats (Now checking Collaborator repos and top 20 languages per repo)
+    # Language Stats
     repos = data.get("repositories", {}).get("nodes", [])
     lang_sizes = defaultdict(int)
     lang_colors = {}
@@ -74,7 +75,7 @@ def get_graphql_data():
             lang_colors[name] = color
             total_size += size
 
-    # Get up to 16 top languages to match your historical card
+    # Top 16 Languages
     sorted_langs = sorted(lang_sizes.items(), key=lambda x: x[1], reverse=True)[:16]
     stats = []
     for name, size in sorted_langs:
@@ -84,60 +85,50 @@ def get_graphql_data():
     return followers, years_ago, issue_comments, stats, len(lang_sizes)
 
 def main():
-    print(f"Generating polished formal card for {USER}...")
+    print(f"Generating mathematically aligned card for {USER}...")
 
     # --- 1. FETCH STATS ---
     commits = get_commits()
     prs_opened = get_rest_count(f"type:pr author:{USER}")
     issues_opened = get_rest_count(f"type:issue author:{USER}")
     
-    # True Code Reviews = Formal Reviews + General Issue/PR Comments
+    # True Code Reviews
     formal_reviews = get_rest_count(f"type:pr reviewed-by:{USER}")
     followers, years_ago, issue_comments, languages, total_langs = get_graphql_data()
     true_reviews = formal_reviews + issue_comments
 
-    # All-time contributed repos (Search API finds all repos where you opened a PR or Issue)
-    # Using a generic search to mirror the "26" from your old card
-    repo_search = requests.get(f"https://api.github.com/search/issues?q=author:{USER}", headers=HEADERS)
-    contributed_to = 0
-    if repo_search.status_code == 200:
-        items = repo_search.json().get("items", [])
-        # Extract unique repository URLs from the items you authored
-        unique_repos = set(item["repository_url"] for item in items)
-        contributed_to = len(unique_repos)
-
     # --- 2. GENERATE SVG COMPONENTS ---
     progress_bar = ""
     current_x = 0
-    # Map percentage to a 460px wide bar
+    # Map percentage to a 440px wide bar
     for lang in languages:
-        width = (lang['width'] / 100) * 460 
+        width = (lang['width'] / 100) * 440 
         progress_bar += f'<rect x="{current_x}" y="0" width="{width}" height="8" fill="{lang["color"]}"/>\n'
         current_x += width
 
-    # Language List (2 Columns, properly aligned)
+    # Language List (2 Columns, strictly mathematically aligned)
     lang_list = ""
-    col1_name_x, col1_val_x = 40, 220
-    col2_name_x, col2_val_x = 280, 460
+    col1_name_x, col1_val_x = 60, 240
+    col2_name_x, col2_val_x = 300, 480
     
     for i, lang in enumerate(languages):
         is_col1 = (i % 2 == 0)
         name_x = col1_name_x if is_col1 else col2_name_x
         val_x = col1_val_x if is_col1 else col2_val_x
-        y = 285 + (i // 2) * 25
+        # Y-coordinate fixed: Starts safely below the progress bar with 28px spacing
+        y = 330 + (i // 2) * 28 
         
         lang_list += f"""
         <g transform="translate(0, {y})">
-            <circle cx="{name_x - 15}" cy="-4" r="4" fill="{lang['color']}"/>
+            <circle cx="{name_x - 12}" cy="-4" r="4" fill="{lang['color']}"/>
             <text x="{name_x}" y="0" class="text-secondary">{lang['name']}</text>
             <text x="{val_x}" y="0" class="text-secondary" text-anchor="end">{lang['percentage']}%</text>
         </g>
         """
 
     # --- 3. ASSEMBLE SVG ---
-    # Increased width to 520 to fix clipping and improve spacing
-    # Adjusting height dynamically based on the number of languages found
-    svg_height = 360 + ((len(languages) + 1) // 2) * 25
+    # Dynamic height calculation properly synced with the new Y-coordinates
+    svg_height = 430 + ((len(languages) + 1) // 2) * 28
     
     svg_content = f"""
     <svg width="520" height="{svg_height}" viewBox="0 0 520 {svg_height}" xmlns="http://www.w3.org/2000/svg">
@@ -155,7 +146,7 @@ def main():
         <text x="40" y="45" class="title">{USER}</text>
         
         <text class="text-secondary" x="40" y="75">Joined GitHub {years_ago} years ago</text>
-        <text class="text-secondary" x="280" y="75">Contributed to {contributed_to} repos</text>
+        <text class="text-secondary" x="280" y="75">Contributed to {MANUAL_REPOS_CONTRIBUTED} repos</text>
         
         <text class="text-secondary" x="40" y="100">Followed by {followers} users</text>
 
@@ -175,13 +166,13 @@ def main():
         <text class="text-secondary" x="280" y="215">Issues Opened</text>
         <text class="text-primary" x="480" y="215" text-anchor="end">{issues_opened}</text>
         
-        <line x1="40" y1="240" x2="480" y2="240" stroke="#21262D" stroke-width="1" />
+        <line x1="40" y1="245" x2="480" y2="245" stroke="#21262D" stroke-width="1" />
 
-        <text x="40" y="270" class="header">&lt;/&gt; {total_langs} Languages</text>
+        <text x="40" y="275" class="header">&lt;/&gt; {total_langs} Languages</text>
         
-        <g transform="translate(40, 285)">
-            <rect width="460" height="8" class="bar-bg"/>
-            <clipPath id="corners"><rect width="460" height="8" rx="4" ry="4"/></clipPath>
+        <g transform="translate(40, 295)">
+            <rect width="440" height="8" class="bar-bg"/>
+            <clipPath id="corners"><rect width="440" height="8" rx="4" ry="4"/></clipPath>
             <g clip-path="url(#corners)">{progress_bar}</g>
         </g>
         
@@ -192,12 +183,12 @@ def main():
         <text x="40" y="{svg_height - 45}" class="header">Contributions Stats</text>
         
         <text class="text-secondary" x="40" y="{svg_height - 20}">Best streak</text>
-        <text class="text-primary" x="150" y="{svg_height - 20}">{BEST_STREAK}</text>
+        <text class="text-primary" x="140" y="{svg_height - 20}">{BEST_STREAK}</text>
         
-        <text class="text-secondary" x="220" y="{svg_height - 20}">Highest in a day</text>
-        <text class="text-primary" x="330" y="{svg_height - 20}">{HIGHEST_IN_DAY}</text>
+        <text class="text-secondary" x="200" y="{svg_height - 20}">Highest in a day</text>
+        <text class="text-primary" x="320" y="{svg_height - 20}">{HIGHEST_IN_DAY}</text>
 
-        <text class="text-secondary" x="380" y="{svg_height - 20}">Daily Avg</text>
+        <text class="text-secondary" x="375" y="{svg_height - 20}">Daily Avg</text>
         <text class="text-primary" x="480" y="{svg_height - 20}" text-anchor="end">{AVERAGE_PER_DAY}</text>
         
     </svg>
