@@ -25,7 +25,7 @@
             <text class="text-primary" x="380" y="30">11</text>
         </g>
 
-        <text x="30" y="155" class="header"></> 10 Languages</text>
+        <text x="30" y="155" class="header">&lt;/&gt; 10 Languages</text>
         <text x="240" y="155" class="text-primary" text-anchor="middle">Most used languages</text>
         <line x1="30" y1="165" x2="450" y2="165" stroke="#21262D" stroke-width="1" />
 
@@ -35,14 +35,14 @@
                 <rect width="420" height="8" rx="4" ry="4"/>
             </clipPath>
             <g clip-path="url(#corners)">
-                <rect x="0" y="0" width="317.68396355136855" height="8" fill="#f1e05a"/>
-<rect x="317.68396355136855" y="0" width="35.0266809439626" height="8" fill="#3178c6"/>
-<rect x="352.71064449533117" y="0" width="24.0418886370917" height="8" fill="#3572A5"/>
-<rect x="376.75253313242285" y="0" width="14.473900430691836" height="8" fill="#f34b7d"/>
-<rect x="391.2264335631147" y="0" width="10.669811824448583" height="8" fill="#663399"/>
-<rect x="401.8962453875633" y="0" width="6.289272451146732" height="8" fill="#e34c26"/>
-<rect x="408.18551783871004" y="0" width="0.7667768114566401" height="8" fill="#DA3434"/>
-<rect x="408.95229465016666" y="0" width="0.49253704780323426" height="8" fill="#384d54"/>
+                <rect x="0" y="0" width="317.6830212408753" height="8" fill="#f1e05a"/>
+<rect x="317.6830212408753" y="0" width="35.02657704822725" height="8" fill="#3178c6"/>
+<rect x="352.70959828910253" y="0" width="24.043033461571543" height="8" fill="#3572A5"/>
+<rect x="376.7526317506741" y="0" width="14.47385749837601" height="8" fill="#f34b7d"/>
+<rect x="391.2264892490501" y="0" width="10.669780175776324" height="8" fill="#663399"/>
+<rect x="401.8962694248264" y="0" width="6.289253795979628" height="8" fill="#e34c26"/>
+<rect x="408.18552322080603" y="0" width="0.7667745370521425" height="8" fill="#DA3434"/>
+<rect x="408.95229775785816" y="0" width="0.49253558684554755" height="8" fill="#384d54"/>
 
             </g>
         </g>
