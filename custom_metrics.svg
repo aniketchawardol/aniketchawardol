@@ -28,7 +28,7 @@
         <text class="text-primary" x="480" y="185" text-anchor="end">16</text>
 
         <text class="text-secondary" x="40" y="215">Total Commits</text>
-        <text class="text-primary" x="240" y="215" text-anchor="end">1019</text>
+        <text class="text-primary" x="240" y="215" text-anchor="end">1020</text>
         
         <text class="text-secondary" x="280" y="215">Issues Opened</text>
         <text class="text-primary" x="480" y="215" text-anchor="end">11</text>
@@ -56,73 +56,73 @@
         </g>
         
         
-        <g transform="translate(0, 330)">
+        <g transform="translate(0, 315)">
             <circle cx="48" cy="-4" r="4" fill="#f1e05a"/>
             <text x="60" y="0" class="text-secondary">JavaScript</text>
             <text x="240" y="0" class="text-secondary" text-anchor="end">70.48%</text>
         </g>
         
-        <g transform="translate(0, 330)">
+        <g transform="translate(0, 315)">
             <circle cx="288" cy="-4" r="4" fill="#555555"/>
             <text x="300" y="0" class="text-secondary">C</text>
             <text x="480" y="0" class="text-secondary" text-anchor="end">7.79%</text>
         </g>
         
-        <g transform="translate(0, 358)">
+        <g transform="translate(0, 343)">
             <circle cx="48" cy="-4" r="4" fill="#3178c6"/>
             <text x="60" y="0" class="text-secondary">TypeScript</text>
             <text x="240" y="0" class="text-secondary" text-anchor="end">7.77%</text>
         </g>
         
-        <g transform="translate(0, 358)">
+        <g transform="translate(0, 343)">
             <circle cx="288" cy="-4" r="4" fill="#3572A5"/>
             <text x="300" y="0" class="text-secondary">Python</text>
             <text x="480" y="0" class="text-secondary" text-anchor="end">6.43%</text>
         </g>
         
-        <g transform="translate(0, 386)">
+        <g transform="translate(0, 371)">
             <circle cx="48" cy="-4" r="4" fill="#f34b7d"/>
             <text x="60" y="0" class="text-secondary">C++</text>
             <text x="240" y="0" class="text-secondary" text-anchor="end">3.21%</text>
         </g>
         
-        <g transform="translate(0, 386)">
+        <g transform="translate(0, 371)">
             <circle cx="288" cy="-4" r="4" fill="#663399"/>
             <text x="300" y="0" class="text-secondary">CSS</text>
             <text x="480" y="0" class="text-secondary" text-anchor="end">2.37%</text>
         </g>
         
-        <g transform="translate(0, 414)">
+        <g transform="translate(0, 399)">
             <circle cx="48" cy="-4" r="4" fill="#e34c26"/>
             <text x="60" y="0" class="text-secondary">HTML</text>
             <text x="240" y="0" class="text-secondary" text-anchor="end">1.4%</text>
         </g>
         
-        <g transform="translate(0, 414)">
+        <g transform="translate(0, 399)">
             <circle cx="288" cy="-4" r="4" fill="#DA3434"/>
             <text x="300" y="0" class="text-secondary">CMake</text>
             <text x="480" y="0" class="text-secondary" text-anchor="end">0.17%</text>
         </g>
         
-        <g transform="translate(0, 442)">
+        <g transform="translate(0, 427)">
             <circle cx="48" cy="-4" r="4" fill="#427819"/>
             <text x="60" y="0" class="text-secondary">Makefile</text>
             <text x="240" y="0" class="text-secondary" text-anchor="end">0.15%</text>
         </g>
         
-        <g transform="translate(0, 442)">
+        <g transform="translate(0, 427)">
             <circle cx="288" cy="-4" r="4" fill="#384d54"/>
             <text x="300" y="0" class="text-secondary">Dockerfile</text>
             <text x="480" y="0" class="text-secondary" text-anchor="end">0.11%</text>
         </g>
         
-        <g transform="translate(0, 470)">
+        <g transform="translate(0, 455)">
             <circle cx="48" cy="-4" r="4" fill="#89e051"/>
             <text x="60" y="0" class="text-secondary">Shell</text>
             <text x="240" y="0" class="text-secondary" text-anchor="end">0.06%</text>
         </g>
         
-        <g transform="translate(0, 470)">
+        <g transform="translate(0, 455)">
             <circle cx="288" cy="-4" r="4" fill="#C1F12E"/>
             <text x="300" y="0" class="text-secondary">Batchfile</text>
             <text x="480" y="0" class="text-secondary" text-anchor="end">0.06%</text>
