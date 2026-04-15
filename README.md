@@ -8,7 +8,7 @@ I am currently pursuing a B.Tech in Computer Science and Engineering from the In
 
 ---
 
-### 💻 Tech Stack & Skills
+### Tech Stack & Skills
 
 <p align="center">
   <strong>Frontend:</strong><br>
@@ -75,46 +75,38 @@ I am currently pursuing a B.Tech in Computer Science and Engineering from the In
 
 ---
 
-### 📊 GitHub Stats
+### GitHub Stats
 
-<p align="center">
-  <img src="github-metrics.svg" alt="Aniket's GitHub Stats">
-</p>
+<div align="center">
+  <img src="custom_metrics.svg" alt="Aniket's Custom Stats" />
+</div>
 
 ---
 
-### 🚀 Projects
-
-#### 🎬 NextJS YouTube Clone
-
-- **Description**: A feature-rich YouTube clone built with the latest web technologies, providing a seamless video sharing and viewing experience.
-- **Key Features**: Seamless video upload, a dynamic video feed, secure user authentication, and a sleek, responsive UI.
-- **Tech Stack**: Next.js, TypeScript, Tailwind CSS, MongoDB, NextAuth.js, and ImageKit for cloud-based video management.
-- **Repository**: [NextJS-yt-clone](https://github.com/aniketchawardol/NextJS-yt-clone)
-
-#### 🏥 Doctors.com | Full-Stack Healthcare Platform
-
-- **Description**: A comprehensive platform designed to digitize and standardize medical reports, offering secure and instant access for both patients and doctors. This full-stack application connects patients with hospitals and features secure JWT authentication and efficient search functionalities.
-- **Key Features**: Secure file uploads with Multer, CI/CD pipeline management, and robust cookie handling.
-- **Tech Stack**: React, Tailwind CSS, Node.js, Express, MongoDB, REST APIs, Cloudinary, bcrypt.
-- **Live Demo**: [doctors-com-frontend.vercel.app](https://doctors-com-frontend.vercel.app)
-
-#### ✒️ CodeSathi | Real-Time Collaborative Code Editor
+### Projects
+#### CodeSathi | Real-Time Collaborative Code Editor
 
 - **Description**: A platform that enables live code editing with real-time, multi-user cursor tracking and an integrated chat feature.
 - **Key Features**: Secure user authentication using Auth0 and an enhanced user experience with the professional-grade Monaco Editor.
 - **Tech Stack**: React, Vite, Socket.IO, Node.js, MongoDB.
 - **Live Demo**: [codesarthi.onrender.com](https://codesarthi.onrender.com)
 
-#### ✍️ BlogApp | Full-Stack Blogging Application
+#### Doctors.com | Full-Stack Healthcare Platform
 
-- **Description**: A complete blogging platform that supports full CRUD (Create, Read, Update, Delete) functionality for posts, along with secure user authentication.
-- **Key Features**: Backend services powered by Appwrite and a rich text editor experience using TinyMCE, all optimized with Vite for a faster development workflow.
-- **Tech Stack**: React, Redux Toolkit, Tailwind CSS.
+- **Description**: A comprehensive platform designed to digitize and standardize medical reports, offering secure and instant access for both patients and doctors. This full-stack application connects patients with hospitals and features secure JWT authentication and efficient search functionalities.
+- **Key Features**: Secure file uploads with Multer, CI/CD pipeline management, and robust cookie handling.
+- **Tech Stack**: React, Tailwind CSS, Node.js, Express, MongoDB, REST APIs, Cloudinary, bcrypt.
+- **Live Demo**: [doctors-com-frontend.vercel.app](https://doctors-com-frontend.vercel.app)
 
+#### Gazebot | Takes care of your webpages so you don't have to
+
+  - **Description**: An open-source, PR-driven visual regression and functional testing tool designed to monitor web pages for UI regressions, broken layouts, and ad placement failures. This automated application runs daily to capture full-page screenshots and compare them against approved baselines, ensuring pixel-perfect UI consistency.
+  - **Key Features**: Automated daily scans via GitHub Actions, dynamic content masking to prevent false positive alerts, and consolidated HTML email digests with inline visual diffs.
+  - **Tech Stack**: Node.js, Puppeteer, pixelmatch, MongoDB, Cloudinary, Nodemailer, GitHub Actions.
+  - **Repository**: [aniketchawardol/gazebot](https://www.google.com/search?q=https://github.com/aniketchawardol/gazebot)
 ---
 
-### 📫 Connect with Me
+### Connect with Me
 
 <p align="left">
   <a href="https://chawardolaniket.is-a.dev" target="_blank">
