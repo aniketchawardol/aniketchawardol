@@ -1,4 +1,4 @@
-<svg width="520" height="538" viewBox="0 0 520 538" xmlns="http://www.w3.org/2000/svg">
+<svg width="520" height="568" viewBox="0 0 520 568" xmlns="http://www.w3.org/2000/svg">
         <style>
             .title { font: 600 20px 'Segoe UI', Ubuntu, Sans-Serif; fill: #58A6FF; }
             .header { font: 600 16px 'Segoe UI', Ubuntu, Sans-Serif; fill: #E6EDF3; }
@@ -8,7 +8,7 @@
             .card-bg { fill: #0D1117; stroke: #30363D; stroke-width: 1px; rx: 8px; ry: 8px; }
         </style>
         
-        <rect width="518" height="536" x="1" y="1" class="card-bg"/>
+        <rect width="518" height="566" x="1" y="1" class="card-bg"/>
         
         <text x="40" y="45" class="title">aniketchawardol</text>
         
@@ -129,17 +129,17 @@
         </g>
         
 
-        <line x1="40" y1="463" x2="480" y2="463" stroke="#21262D" stroke-width="1" />
+        <line x1="40" y1="493" x2="480" y2="493" stroke="#21262D" stroke-width="1" />
 
-        <text x="40" y="493" class="header">Contributions Stats</text>
+        <text x="40" y="523" class="header">Contributions Stats</text>
         
-        <text class="text-secondary" x="40" y="518">Best streak</text>
-        <text class="text-primary" x="140" y="518">4 days</text>
+        <text class="text-secondary" x="40" y="548">Best streak</text>
+        <text class="text-primary" x="140" y="548">4 days</text>
         
-        <text class="text-secondary" x="200" y="518">Highest in a day</text>
-        <text class="text-primary" x="320" y="518">7</text>
+        <text class="text-secondary" x="200" y="548">Highest in a day</text>
+        <text class="text-primary" x="320" y="548">7</text>
 
-        <text class="text-secondary" x="375" y="518">Daily Avg</text>
-        <text class="text-primary" x="480" y="518" text-anchor="end">~0.48</text>
+        <text class="text-secondary" x="375" y="548">Daily Avg</text>
+        <text class="text-primary" x="480" y="548" text-anchor="end">~0.48</text>
         
     </svg>
