@@ -1,99 +1,116 @@
-<svg width="480" height="350" viewBox="0 0 480 350" xmlns="http://www.w3.org/2000/svg">
+<svg width="480" height="480" viewBox="0 0 480 480" xmlns="http://www.w3.org/2000/svg">
         <style>
-            .header { font: 600 18px 'Segoe UI', Ubuntu, Sans-Serif; fill: #58A6FF; }
+            .title { font: 600 20px 'Segoe UI', Ubuntu, Sans-Serif; fill: #58A6FF; }
+            .header { font: 600 16px 'Segoe UI', Ubuntu, Sans-Serif; fill: #E6EDF3; }
             .text-primary { font: 600 14px 'Segoe UI', Ubuntu, Sans-Serif; fill: #E6EDF3; }
             .text-secondary { font: 400 13px 'Segoe UI', Ubuntu, Sans-Serif; fill: #8B949E; }
             .bar-bg { fill: #161B22; rx: 4px; ry: 4px; }
             .card-bg { fill: #0D1117; stroke: #30363D; stroke-width: 1px; rx: 8px; ry: 8px; }
         </style>
         
-        <rect width="478" height="348" x="1" y="1" class="card-bg"/>
+        <rect width="478" height="478" x="1" y="1" class="card-bg"/>
         
-        <line x1="30" y1="45" x2="450" y2="45" stroke="#21262D" stroke-width="1" />
+        <text x="30" y="40" class="title">aniketchawardol</text>
+        <g transform="translate(30, 65)">
+            <text class="text-secondary" x="0" y="0">Joined GitHub 3 years ago</text>
+            <text class="text-secondary" x="220" y="0">Contributed to 8 repos</text>
+            <text class="text-secondary" x="0" y="25">Followed by 4 users</text>
+        </g>
 
-        <g transform="translate(30, 70)">
-            <text class="text-secondary" x="0" y="0">PR Reviews &amp; Feedback</text>
-            <text class="text-primary" x="200" y="0">4</text>
+        <line x1="30" y1="110" x2="450" y2="110" stroke="#21262D" stroke-width="1" />
+
+        <text x="30" y="140" class="header">Activity</text>
+        <g transform="translate(30, 165)">
+            <text class="text-secondary" x="0" y="0">Code Reviews &amp; Feedback</text>
+            <text class="text-primary" x="200" y="0">33</text>
             
             <text class="text-secondary" x="250" y="0">PRs Opened</text>
             <text class="text-primary" x="380" y="0">16</text>
 
             <text class="text-secondary" x="0" y="30">Total Commits</text>
-            <text class="text-primary" x="200" y="30">0</text>
+            <text class="text-primary" x="200" y="30">1017</text>
             
             <text class="text-secondary" x="250" y="30">Issues Opened</text>
             <text class="text-primary" x="380" y="30">11</text>
         </g>
-
-        <text x="30" y="155" class="header">&lt;/&gt; 10 Languages</text>
-        <text x="240" y="155" class="text-primary" text-anchor="middle">Most used languages</text>
-        <line x1="30" y1="165" x2="450" y2="165" stroke="#21262D" stroke-width="1" />
-
-        <g transform="translate(30, 180)">
-            <rect width="420" height="8" class="bar-bg"/>
-            <clipPath id="corners">
-                <rect width="420" height="8" rx="4" ry="4"/>
-            </clipPath>
-            <g clip-path="url(#corners)">
-                <rect x="0" y="0" width="317.6830212408753" height="8" fill="#f1e05a"/>
-<rect x="317.6830212408753" y="0" width="35.02657704822725" height="8" fill="#3178c6"/>
-<rect x="352.70959828910253" y="0" width="24.043033461571543" height="8" fill="#3572A5"/>
-<rect x="376.7526317506741" y="0" width="14.47385749837601" height="8" fill="#f34b7d"/>
-<rect x="391.2264892490501" y="0" width="10.669780175776324" height="8" fill="#663399"/>
-<rect x="401.8962694248264" y="0" width="6.289253795979628" height="8" fill="#e34c26"/>
-<rect x="408.18552322080603" y="0" width="0.7667745370521425" height="8" fill="#DA3434"/>
-<rect x="408.95229775785816" y="0" width="0.49253558684554755" height="8" fill="#384d54"/>
-
-            </g>
-        </g>
-
         
-        <g transform="translate(30, 220)">
+        <line x1="30" y1="215" x2="450" y2="215" stroke="#21262D" stroke-width="1" />
+
+        <text x="30" y="240" class="header">&lt;/&gt; 10 Languages</text>
+        <g transform="translate(30, 255)">
+            <rect width="420" height="8" class="bar-bg"/>
+            <clipPath id="corners"><rect width="420" height="8" rx="4" ry="4"/></clipPath>
+            <g clip-path="url(#corners)"><rect x="0" y="0" width="324.48142671240987" height="8" fill="#f1e05a"/>
+<rect x="324.48142671240987" y="0" width="35.776144564060104" height="8" fill="#3178c6"/>
+<rect x="360.25757127647" y="0" width="25.783567964036436" height="8" fill="#3572A5"/>
+<rect x="386.0411392405064" y="0" width="14.783597539335148" height="8" fill="#f34b7d"/>
+<rect x="400.8247367798416" y="0" width="10.89811309594227" height="8" fill="#663399"/>
+<rect x="411.7228498757839" y="0" width="6.4238436058204185" height="8" fill="#e34c26"/>
+<rect x="418.1466934816043" y="0" width="0.7831834851532001" height="8" fill="#DA3434"/>
+<rect x="418.9298769667575" y="0" width="0.5030758310658938" height="8" fill="#384d54"/>
+</g>
+        </g>
+        
+        <g transform="translate(30, 265)">
             <circle cx="5" cy="5" r="4" fill="#f1e05a"/>
             <text x="20" y="9" class="text-secondary">JavaScript</text>
-            <text x="130" y="9" class="text-secondary" text-anchor="end">77.48%</text>
+            <text x="130" y="9" class="text-secondary" text-anchor="end">77.26%</text>
         </g>
         
-        <g transform="translate(240, 220)">
+        <g transform="translate(240, 265)">
             <circle cx="5" cy="5" r="4" fill="#3178c6"/>
             <text x="20" y="9" class="text-secondary">TypeScript</text>
-            <text x="130" y="9" class="text-secondary" text-anchor="end">8.54%</text>
+            <text x="130" y="9" class="text-secondary" text-anchor="end">8.52%</text>
         </g>
         
-        <g transform="translate(30, 245)">
+        <g transform="translate(30, 290)">
             <circle cx="5" cy="5" r="4" fill="#3572A5"/>
             <text x="20" y="9" class="text-secondary">Python</text>
-            <text x="130" y="9" class="text-secondary" text-anchor="end">5.86%</text>
+            <text x="130" y="9" class="text-secondary" text-anchor="end">6.14%</text>
         </g>
         
-        <g transform="translate(240, 245)">
+        <g transform="translate(240, 290)">
             <circle cx="5" cy="5" r="4" fill="#f34b7d"/>
             <text x="20" y="9" class="text-secondary">C++</text>
-            <text x="130" y="9" class="text-secondary" text-anchor="end">3.53%</text>
+            <text x="130" y="9" class="text-secondary" text-anchor="end">3.52%</text>
         </g>
         
-        <g transform="translate(30, 270)">
+        <g transform="translate(30, 315)">
             <circle cx="5" cy="5" r="4" fill="#663399"/>
             <text x="20" y="9" class="text-secondary">CSS</text>
-            <text x="130" y="9" class="text-secondary" text-anchor="end">2.6%</text>
+            <text x="130" y="9" class="text-secondary" text-anchor="end">2.59%</text>
         </g>
         
-        <g transform="translate(240, 270)">
+        <g transform="translate(240, 315)">
             <circle cx="5" cy="5" r="4" fill="#e34c26"/>
             <text x="20" y="9" class="text-secondary">HTML</text>
             <text x="130" y="9" class="text-secondary" text-anchor="end">1.53%</text>
         </g>
         
-        <g transform="translate(30, 295)">
+        <g transform="translate(30, 340)">
             <circle cx="5" cy="5" r="4" fill="#DA3434"/>
             <text x="20" y="9" class="text-secondary">CMake</text>
             <text x="130" y="9" class="text-secondary" text-anchor="end">0.19%</text>
         </g>
         
-        <g transform="translate(240, 295)">
+        <g transform="translate(240, 340)">
             <circle cx="5" cy="5" r="4" fill="#384d54"/>
             <text x="20" y="9" class="text-secondary">Dockerfile</text>
             <text x="130" y="9" class="text-secondary" text-anchor="end">0.12%</text>
         </g>
         
+
+        <line x1="30" y1="385" x2="450" y2="385" stroke="#21262D" stroke-width="1" />
+
+        <text x="30" y="415" class="header">Contributions Stats</text>
+        <g transform="translate(30, 440)">
+            <text class="text-secondary" x="0" y="0">Best streak</text>
+            <text class="text-primary" x="120" y="0">4 days</text>
+            
+            <text class="text-secondary" x="180" y="0">Highest in a day</text>
+            <text class="text-primary" x="300" y="0">7</text>
+
+            <text class="text-secondary" x="340" y="0">Daily Avg</text>
+            <text class="text-primary" x="420" y="0">~0.48</text>
+        </g>
     </svg>
