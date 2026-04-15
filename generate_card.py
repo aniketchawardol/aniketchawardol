@@ -143,7 +143,7 @@ def main():
             <text class="text-primary" x="380" y="30">{issues_opened}</text>
         </g>
 
-        <text x="30" y="155" class="header">{'</>'} {total_langs} Languages</text>
+        <text x="30" y="155" class="header">&lt;/&gt; {total_langs} Languages</text>
         <text x="240" y="155" class="text-primary" text-anchor="middle">Most used languages</text>
         <line x1="30" y1="165" x2="450" y2="165" stroke="#21262D" stroke-width="1" />
 
