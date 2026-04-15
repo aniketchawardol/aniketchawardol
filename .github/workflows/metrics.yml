@@ -4,8 +4,9 @@ on:
   schedule: [{cron: "0 0 * * *"}]
   # Allow manual trigger
   workflow_dispatch:
-
+  # Run on push to main/master
   push: {branches: ["master", "main"]}
+
 jobs:
   github-metrics:
     runs-on: ubuntu-latest
@@ -16,20 +17,34 @@ jobs:
         with:
           token: ${{ secrets.METRICS_TOKEN }}
           
-          # Options
+          # General settings
           user: aniketchawardol
           template: classic
           config_timezone: Asia/Kolkata
           
-      
-          base: header, activity, community
+          # Base content (Header, Activity, Community, Repositories)
+          # Including 'community' and 'activity' helps show engagement
+          base: header, activity, community, repositories
           
-    
+          # ISO Calendar (Half-year view)
           plugin_isocalendar: yes
           plugin_isocalendar_duration: half-year
           
-      
+          # Languages settings
           plugin_languages: yes
           plugin_languages_ignored: html, css
           plugin_languages_limit: 8
           plugin_languages_details: lines, percentage
+          
+          # Follow-up plugin: Tracks PRs/Issues you've commented on or opened
+          # This is the primary way to display "Participation" beyond formal reviews
+          plugin_followup: yes
+          plugin_followup_sections: user
+          
+          # Notable contributions: Displays your involvement in different projects
+          plugin_notable: yes
+          plugin_notable_from: all
+          plugin_notable_types: commit, pull_request, issue
+
+          # Lines of code plugin (Optional, but looks great with PR stats)
+          plugin_lines: yes
