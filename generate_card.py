@@ -128,7 +128,7 @@ def main():
 
     # --- 3. ASSEMBLE SVG ---
     # Dynamic height calculation properly synced with the new Y-coordinates
-    svg_height = 370 + ((len(languages) + 1) // 2) * 28
+    svg_height = 400 + ((len(languages) + 1) // 2) * 28
     
     svg_content = f"""
     <svg width="520" height="{svg_height}" viewBox="0 0 520 {svg_height}" xmlns="http://www.w3.org/2000/svg">
