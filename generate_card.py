@@ -116,7 +116,7 @@ def main():
         name_x = col1_name_x if is_col1 else col2_name_x
         val_x = col1_val_x if is_col1 else col2_val_x
         # Y-coordinate fixed: Starts safely below the progress bar with 28px spacing
-        y = 330 + (i // 2) * 28 
+        y = 315 + (i // 2) * 28 
         
         lang_list += f"""
         <g transform="translate(0, {y})">
