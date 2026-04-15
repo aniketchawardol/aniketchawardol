@@ -78,7 +78,7 @@ I am currently pursuing a B.Tech in Computer Science and Engineering from the In
 ### GitHub Stats
 
 <div align="center">
-  <img src="custom_metrics.svg" alt="Aniket's Custom Stats" />
+  <img src="custom_metrics.svg?v=1" alt="Aniket's Custom Stats" />
 </div>
 
 ---
