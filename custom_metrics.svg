@@ -31,7 +31,7 @@
         <text class="text-primary" x="240" y="215" text-anchor="end">1042</text>
         
         <text class="text-secondary" x="280" y="215">Issues Opened</text>
-        <text class="text-primary" x="480" y="215" text-anchor="end">11</text>
+        <text class="text-primary" x="480" y="215" text-anchor="end">12</text>
         
         <line x1="40" y1="245" x2="480" y2="245" stroke="#21262D" stroke-width="1" />
 
