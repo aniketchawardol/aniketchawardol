@@ -22,7 +22,7 @@
         <text x="40" y="155" class="header">Activity</text>
         
         <text class="text-secondary" x="40" y="185">Code Reviews &amp; Feedback</text>
-        <text class="text-primary" x="240" y="185" text-anchor="end">38</text>
+        <text class="text-primary" x="240" y="185" text-anchor="end">40</text>
         
         <text class="text-secondary" x="280" y="185">PRs Opened</text>
         <text class="text-primary" x="480" y="185" text-anchor="end">16</text>
