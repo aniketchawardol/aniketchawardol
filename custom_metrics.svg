@@ -28,7 +28,7 @@
         <text class="text-primary" x="480" y="185" text-anchor="end">19</text>
 
         <text class="text-secondary" x="40" y="215">Total Commits</text>
-        <text class="text-primary" x="240" y="215" text-anchor="end">1059</text>
+        <text class="text-primary" x="240" y="215" text-anchor="end">1063</text>
         
         <text class="text-secondary" x="280" y="215">Issues Opened</text>
         <text class="text-primary" x="480" y="215" text-anchor="end">12</text>
@@ -40,18 +40,18 @@
         <g transform="translate(40, 295)">
             <rect width="440" height="8" class="bar-bg"/>
             <clipPath id="corners"><rect width="440" height="8" rx="4" ry="4"/></clipPath>
-            <g clip-path="url(#corners)"><rect x="0" y="0" width="309.933234101303" height="8" fill="#f1e05a"/>
-<rect x="309.933234101303" y="0" width="34.276522995944426" height="8" fill="#555555"/>
-<rect x="344.20975709724746" y="0" width="34.172113642246956" height="8" fill="#3178c6"/>
-<rect x="378.3818707394944" y="0" width="28.29434161705065" height="8" fill="#3572A5"/>
-<rect x="406.676212356545" y="0" width="14.120771852618862" height="8" fill="#f34b7d"/>
-<rect x="420.7969842091639" y="0" width="10.409493916645095" height="8" fill="#663399"/>
-<rect x="431.206478125809" y="0" width="6.3832082146863405" height="8" fill="#e34c26"/>
-<rect x="437.58968634049535" y="0" width="0.7480692898438174" height="8" fill="#DA3434"/>
-<rect x="438.3377556303392" y="0" width="0.6401005263612045" height="8" fill="#427819"/>
-<rect x="438.9778561567004" y="0" width="0.48052032099404607" height="8" fill="#384d54"/>
-<rect x="439.45837647769446" y="0" width="0.282973077918716" height="8" fill="#89e051"/>
-<rect x="439.74134955561317" y="0" width="0.25865044438691864" height="8" fill="#C1F12E"/>
+            <g clip-path="url(#corners)"><rect x="0" y="0" width="312.10658889036193" height="8" fill="#f1e05a"/>
+<rect x="312.10658889036193" y="0" width="33.70377833753149" height="8" fill="#555555"/>
+<rect x="345.81036722789344" y="0" width="33.60111361527244" height="8" fill="#3178c6"/>
+<rect x="379.41148084316586" y="0" width="27.821556409916482" height="8" fill="#3572A5"/>
+<rect x="407.23303725308233" y="0" width="13.884820363250695" height="8" fill="#f34b7d"/>
+<rect x="421.117857616333" y="0" width="10.235556144769985" height="8" fill="#663399"/>
+<rect x="431.353413761103" y="0" width="6.2765477926554425" height="8" fill="#e34c26"/>
+<rect x="437.62996155375845" y="0" width="0.7355694020946574" height="8" fill="#DA3434"/>
+<rect x="438.3655309558531" y="0" width="0.6294047461222324" height="8" fill="#427819"/>
+<rect x="438.99493570197535" y="0" width="0.47249105130584645" height="8" fill="#384d54"/>
+<rect x="439.4674267532812" y="0" width="0.27824473021344287" height="8" fill="#89e051"/>
+<rect x="439.7456714834946" y="0" width="0.2543285165053692" height="8" fill="#C1F12E"/>
 </g>
         </g>
         
@@ -59,43 +59,43 @@
         <g transform="translate(0, 330)">
             <circle cx="48" cy="-4" r="4" fill="#f1e05a"/>
             <text x="60" y="0" class="text-secondary">JavaScript</text>
-            <text x="240" y="0" class="text-secondary" text-anchor="end">70.44%</text>
+            <text x="240" y="0" class="text-secondary" text-anchor="end">70.93%</text>
         </g>
         
         <g transform="translate(0, 330)">
             <circle cx="288" cy="-4" r="4" fill="#555555"/>
             <text x="300" y="0" class="text-secondary">C</text>
-            <text x="480" y="0" class="text-secondary" text-anchor="end">7.79%</text>
+            <text x="480" y="0" class="text-secondary" text-anchor="end">7.66%</text>
         </g>
         
         <g transform="translate(0, 358)">
             <circle cx="48" cy="-4" r="4" fill="#3178c6"/>
             <text x="60" y="0" class="text-secondary">TypeScript</text>
-            <text x="240" y="0" class="text-secondary" text-anchor="end">7.77%</text>
+            <text x="240" y="0" class="text-secondary" text-anchor="end">7.64%</text>
         </g>
         
         <g transform="translate(0, 358)">
             <circle cx="288" cy="-4" r="4" fill="#3572A5"/>
             <text x="300" y="0" class="text-secondary">Python</text>
-            <text x="480" y="0" class="text-secondary" text-anchor="end">6.43%</text>
+            <text x="480" y="0" class="text-secondary" text-anchor="end">6.32%</text>
         </g>
         
         <g transform="translate(0, 386)">
             <circle cx="48" cy="-4" r="4" fill="#f34b7d"/>
             <text x="60" y="0" class="text-secondary">C++</text>
-            <text x="240" y="0" class="text-secondary" text-anchor="end">3.21%</text>
+            <text x="240" y="0" class="text-secondary" text-anchor="end">3.16%</text>
         </g>
         
         <g transform="translate(0, 386)">
             <circle cx="288" cy="-4" r="4" fill="#663399"/>
             <text x="300" y="0" class="text-secondary">CSS</text>
-            <text x="480" y="0" class="text-secondary" text-anchor="end">2.37%</text>
+            <text x="480" y="0" class="text-secondary" text-anchor="end">2.33%</text>
         </g>
         
         <g transform="translate(0, 414)">
             <circle cx="48" cy="-4" r="4" fill="#e34c26"/>
             <text x="60" y="0" class="text-secondary">HTML</text>
-            <text x="240" y="0" class="text-secondary" text-anchor="end">1.45%</text>
+            <text x="240" y="0" class="text-secondary" text-anchor="end">1.43%</text>
         </g>
         
         <g transform="translate(0, 414)">
@@ -107,7 +107,7 @@
         <g transform="translate(0, 442)">
             <circle cx="48" cy="-4" r="4" fill="#427819"/>
             <text x="60" y="0" class="text-secondary">Makefile</text>
-            <text x="240" y="0" class="text-secondary" text-anchor="end">0.15%</text>
+            <text x="240" y="0" class="text-secondary" text-anchor="end">0.14%</text>
         </g>
         
         <g transform="translate(0, 442)">
