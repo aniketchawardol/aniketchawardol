@@ -15,7 +15,7 @@
         <text class="text-secondary" x="40" y="75">Joined GitHub 3 years ago</text>
         <text class="text-secondary" x="280" y="75">Contributed to 26 repos</text>
         
-        <text class="text-secondary" x="40" y="100">Followed by 4 users</text>
+        <text class="text-secondary" x="40" y="100">Followed by 5 users</text>
 
         <line x1="40" y1="125" x2="480" y2="125" stroke="#21262D" stroke-width="1" />
 
