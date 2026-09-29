@@ -25,10 +25,10 @@
         <text class="text-primary" x="240" y="185" text-anchor="end">49</text>
         
         <text class="text-secondary" x="280" y="185">PRs Opened</text>
-        <text class="text-primary" x="480" y="185" text-anchor="end">27</text>
+        <text class="text-primary" x="480" y="185" text-anchor="end">28</text>
 
         <text class="text-secondary" x="40" y="215">Total Commits</text>
-        <text class="text-primary" x="240" y="215" text-anchor="end">1171</text>
+        <text class="text-primary" x="240" y="215" text-anchor="end">1173</text>
         
         <text class="text-secondary" x="280" y="215">Issues Opened</text>
         <text class="text-primary" x="480" y="215" text-anchor="end">12</text>
@@ -40,18 +40,18 @@
         <g transform="translate(40, 295)">
             <rect width="440" height="8" class="bar-bg"/>
             <clipPath id="corners"><rect width="440" height="8" rx="4" ry="4"/></clipPath>
-            <g clip-path="url(#corners)"><rect x="0" y="0" width="232.3322428018738" height="8" fill="#f1e05a"/>
-<rect x="232.3322428018738" y="0" width="144.24878962952786" height="8" fill="#3572A5"/>
-<rect x="376.5810324314017" y="0" width="26.91073867046739" height="8" fill="#3178c6"/>
-<rect x="403.49177110186906" y="0" width="16.07534094927856" height="8" fill="#663399"/>
-<rect x="419.5671120511476" y="0" width="10.84534603008297" height="8" fill="#555555"/>
-<rect x="430.41245808123057" y="0" width="4.467916917116338" height="8" fill="#f34b7d"/>
-<rect x="434.8803749983469" y="0" width="3.0783446389408033" height="8" fill="#e34c26"/>
-<rect x="437.9587196372877" y="0" width="1.4306794413418784" height="8" fill="#384d54"/>
-<rect x="439.38939907862954" y="0" width="0.23669467010392398" height="8" fill="#DA3434"/>
-<rect x="439.62609374873347" y="0" width="0.20253255276933704" height="8" fill="#427819"/>
-<rect x="439.8286263015028" y="0" width="0.08953478004724166" height="8" fill="#89e051"/>
-<rect x="439.91816108155007" y="0" width="0.08183891844988966" height="8" fill="#C1F12E"/>
+            <g clip-path="url(#corners)"><rect x="0" y="0" width="232.3456191868848" height="8" fill="#f1e05a"/>
+<rect x="232.3456191868848" y="0" width="144.23949821436798" height="8" fill="#3572A5"/>
+<rect x="376.5851174012528" y="0" width="26.909005284378747" height="8" fill="#3178c6"/>
+<rect x="403.4941226856315" y="0" width="16.074305497494315" height="8" fill="#663399"/>
+<rect x="419.56842818312583" y="0" width="10.844647454983816" height="8" fill="#555555"/>
+<rect x="430.41307563810966" y="0" width="4.467629127727717" height="8" fill="#f34b7d"/>
+<rect x="434.8807047658374" y="0" width="3.0781463552801984" height="8" fill="#e34c26"/>
+<rect x="437.95885112111756" y="0" width="1.4305872878015655" height="8" fill="#384d54"/>
+<rect x="439.38943840891915" y="0" width="0.2366794240248982" height="8" fill="#DA3434"/>
+<rect x="439.62611783294403" y="0" width="0.20251950715532524" height="8" fill="#427819"/>
+<rect x="439.82863734009936" y="0" width="0.08952901289443016" height="8" fill="#89e051"/>
+<rect x="439.9181663529938" y="0" width="0.08183364700622965" height="8" fill="#C1F12E"/>
 </g>
         </g>
         
@@ -59,7 +59,7 @@
         <g transform="translate(0, 330)">
             <circle cx="48" cy="-4" r="4" fill="#f1e05a"/>
             <text x="60" y="0" class="text-secondary">JavaScript</text>
-            <text x="240" y="0" class="text-secondary" text-anchor="end">52.8%</text>
+            <text x="240" y="0" class="text-secondary" text-anchor="end">52.81%</text>
         </g>
         
         <g transform="translate(0, 330)">
